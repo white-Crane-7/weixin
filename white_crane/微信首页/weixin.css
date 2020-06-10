@@ -1,0 +1,290 @@
+@import "reset.css";
+@import "common.css";
+
+/* 统一样式开始 */
+.contenier{
+    margin: 0 auto;
+    width: 968px;
+}
+a{
+    text-decoration: none;
+    color: #609700;
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+}
+a:hover{
+    text-decoration: underline;
+    color: #333;
+}
+h3 {
+    font-size: 14px;
+    font-weight: 700;
+}
+/* .ul .dot{
+    width: 6px;
+    height: 6px;
+    background-color: #999;
+    display: inline-block;
+    border-radius: 5px;
+}
+.ul a{
+    margin-left: 10px;
+    line-height: 1.7;
+    vertical-align: middle;
+} */
+/* 统一样式结束 */
+
+/* 头部开始 */
+.header{
+    width: auto;
+    height: 500px;
+    background: url(//res.wx.qq.com/a/wx_fed/weixin_portal/res/static/img/3S9sFMD.jpg) repeat-x;
+}   
+.header .contenier{
+    height: 75px;
+}
+.header .contenier .logo{
+    vertical-align: center;
+}
+.header .contenier .logo a{
+    width: 130px;
+    height: 0;
+    overflow: hidden;
+    margin-top: 14px;
+    padding-top: 44px;
+    display: inline-block;
+    background: url(//res.wx.qq.com/a/wx_fed/weixin_portal/res/static/img/dNEBuK6.png)no-repeat left top/100%;
+}
+.header .contenier .nav{
+    height: 75px;
+    line-height: 75px;
+    display: inline-block;
+}
+.header .contenier .nav .link{
+    color: #ffffff;
+    padding-right: 18px;
+    font-size: 14px;
+}
+.header .contenier .nav .selected{
+    font-weight: 700;
+    
+}
+.header .contenier .nav a:hover{
+    text-decoration: none;
+    background: url(//res.wx.qq.com/a/wx_fed/weixin_portal/res/static/img/lTcb_ve.png) no-repeat;
+}
+.header .contenier .nav a:active{
+    font-weight: 700;
+    background: url(//res.wx.qq.com/a/wx_fed/weixin_portal/res/static/img/lTcb_ve.png) no-repeat scroll;
+}
+/* 中部图片区 */
+.header .content{
+    margin: 0 auto;
+    height: 424px;
+    width: 968px;
+}
+.header .content h2{
+    padding: 45px 0px 3px 0px;
+}
+.header .content .title{
+    font-size: 26px;
+    font-weight: 400;
+    color: black;
+}
+.header .content .p{
+    font-size: 16px;
+    color: #979797;
+    margin: 16px 0px;
+}
+.header .content .b{
+    width: 224px;
+    height: 64px;
+    margin: 26px 0 17px ;
+    background:url(//res.wx.qq.com/a/wx_fed/weixin_portal/res/static/img/1GJJxhb.png) no-repeat left top/100%;
+}
+.header .content .ul .dot{
+    width: 6px;
+    height: 6px;
+    background-color: #999;
+    display: inline-block;
+    border-radius: 5px;
+}
+.header .content .ul a{
+    margin-left: 10px;
+    line-height: 1.7;
+    vertical-align: middle;
+}
+
+.header .content .picture img{
+    width: 490px;
+    height: 280px;
+    margin-top: 20px;
+    padding-right: 75px; 
+    background: url(//res.wx.qq.com/a/wx_fed/weixin_portal/res/static/img/2gK_8My.png) no-repeat 0 0;
+}
+.header .content .picture .p{
+    width: 490px;
+    height: 40px;
+    text-align: center;
+}
+.header .content .picture .span {
+    color: #000;
+}
+.header .content .picture .span a{
+    display: block;
+    margin-top: 5px;
+} 
+.header .content .picture .div {
+    text-align: center;
+    margin-right: 69px;
+    margin-top: 30px;
+}
+.header .content .picture .div .li{
+    width: 26px;
+    background: url(//res.wx.qq.com/a/wx_fed/weixin_portal/res/static/img/DxopYJv.png) no-repeat;
+    height: 26px;
+    background-position: -35px -112px;
+    list-style: none;
+    display: inline-block;
+}
+.header .content .picture .div li:last-of-type{
+    background-position: -11px -112px;
+}
+.header .content .picture .arrows{
+    position: relative;
+}
+/* .header .content .picture .arrows div:hover{
+    display: block;
+} */
+.header .content .picture .arrows .left-arrows{
+    width: 56px;
+    position: relative;
+    top: -230px;
+    right: 35px;
+    height: 50px;
+    background: url(//res.wx.qq.com/a/wx_fed/weixin_portal/res/static/img/DxopYJv.png) no-repeat;
+}
+/* 头部结束 */
+/* 中部开始 */
+.boddy{
+    height: 390px;
+    margin-top: 50px;
+}
+.boddy .float-left .version{
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 9px;
+}
+.boddy .float-left .version .img{
+    display: block;
+    width: 200px ;
+    height: 114px;
+    background: url(//res.wx.qq.com/a/wx_fed/weixin_portal/res/static/img/1oPgjZ4.png) no-repeat;
+}
+.boddy .float-left .version .img2{
+    display: block;
+    width: 200px ;
+    height: 114px;
+    background: url(//res.wx.qq.com/a/wx_fed/weixin_portal/res/static/img/1oPgjZ4.png) no-repeat;
+    background-position: -217px 0px;
+}
+.boddy .float-left .version .img3{
+    display: block;
+    width: 200px ;
+    height: 114px;
+    background: url(//res.wx.qq.com/a/wx_fed/weixin_portal/res/static/img/1oPgjZ4.png) no-repeat;
+    background-position: right;
+}
+.boddy .float-left .version .h3{
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.boddy .float-left .version .grey{
+    color: #999;
+    margin: 10px 0px;
+    font-size: 14px;
+}
+.boddy .float-left .ul .dot{
+    width: 4px;
+    height: 4px;
+    background-color: #999;
+    display: inline-block;
+    border-radius: 100px;
+    vertical-align: middle;
+}
+.boddy .float-left .ul a{
+    margin-left: 5px;
+    line-height: 1.7;
+    vertical-align: middle;
+}
+.boddy .float-left .ul li{
+    margin: 5px 0px;
+    content: "";
+    display: block;
+    clear: both;
+}
+.boddy .float-left .ul .special{
+    color: red;font-size: 11px;
+}
+.boddy .float-left .ul .date{
+    line-height: 1.8;
+    font-size: 14px;
+    color: #999;
+    float: right;
+    font-family: Courier New,Courier,monospace;
+}
+.boddy .float-left .ul .other{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.boddy .float-left .ul .ico{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background: url(//res.wx.qq.com/a/wx_fed/weixin_portal/res/static/img/1L3ryyg.png) no-repeat;
+}
+.boddy .float-left .ul .icon .black{
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    vertical-align: 10px;
+}
+/* 中部结束 */
+/* 尾部开始 */
+.footer{
+    border-top: 1px solid #d4dadf;
+    padding-top: 9px; 
+}
+.footer .left a{
+    color: #888;
+    font-size: 12px;
+    border-right: 1.2px solid #999;
+    padding:6px;
+    display: inline-block;
+    line-height: 0px;
+}
+.footer .left p{
+    color: #888;
+    font-size: 11px;
+    margin: 15px 0;
+
+}
+.footer .left .special{
+    border: none;
+}
+.footer .float-right .special{
+    border: none;
+}
+.footer .float-right a{
+    color: #888;
+    font-size: 12px;
+    border-right: 1.2px solid #999;
+    padding:6px;
+    display: inline-block;
+    line-height: 0px;
+}
+/* 尾部结束 */
