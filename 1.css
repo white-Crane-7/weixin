@@ -1,0 +1,106 @@
+.blue{
+    background-color: blue;
+}
+.pink{
+    background-color: pink;
+}
+.one{
+    height: 100px;
+    width: auto;
+    overflow: hidden;
+    margin: 20px;
+    position: relative;
+    min-width: 700px;
+    }
+.one .left-one{
+        width: 30%;
+        height: 100px;
+        float: left;
+    }
+.one .right-one{
+        width: 70%;
+        height: 100px;
+        float: right;
+    }
+.left-two{
+    width: 100px;
+    float: left;
+}
+.right-two{
+    overflow: hidden;
+}
+.left-three{
+    width: 100px;
+    position: absolute;
+    height: 100px;
+}
+.right-three{
+    height: 100px;
+    margin-left: 100px;
+}
+.two{
+    display: flex;
+    align-items: flex-start;
+}
+.left-four{
+    flex: 0 0 auto;
+}
+.right-four{
+    flex: 1 1 auto;
+}
+.left-five{
+    overflow: hidden;
+}
+.right-five{
+    width: 100px;
+    float: right;
+}
+.right-six{
+    position: absolute;
+    right: 0px;
+    top: 0px; 
+    width: 100px;
+}
+.right-eleven{
+    float: right;
+    width: 200px;
+}
+.left-eleven{
+    float: left;
+    width: 200px;
+}
+.right-eight{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+}
+.left-eight{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+}
+.left-nine{
+    float: left;
+    width: 200px;
+}
+.center-nine{
+    float: left;
+    width: 200px;
+}
+.right-nine{
+    overflow: hidden;
+}
+.left-ten{
+    position: absolute;
+    width: 200px;
+}
+.center-ten{
+    position: absolute;
+    width: 200px;
+    left: 200px;
+}
+.right-ten{
+    margin-left: 400px;
+}

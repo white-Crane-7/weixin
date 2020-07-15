@@ -1,0 +1,131 @@
+@import "reset.css";
+@import "common.css";
+/* 共同样式 */
+
+.header{
+    width: 100%;
+    height: 400px;
+}
+.header .top{
+    background-color: #000000cf;
+    height: 50px;
+    width: auto;
+}
+.header .top .content{
+    width: 960px;
+    margin: 0 auto;
+}
+.header .top .content .logo{
+    color:white;
+    line-height: 50px;
+    font-size: 18px;
+}
+.header .top .content .git{
+    font-size: 10px;
+    color: white;
+}
+.header .top .content .git span{
+    text-decoration: underline;
+    margin: 0 3px;
+}
+.header .bottom{
+    background-color: #4dae21d6;
+    height: 350px;
+    width: auto;
+}
+.header .bottom .content{
+    width: 960px;
+    margin: 0 auto;
+    height: 350px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.header .bottom .content span{
+    border: 1px solid;
+    margin: 6px  2px; 
+    padding: 4px;
+    font-size: 2px;
+    background-color: white;
+    opacity: 0.4;
+}
+.header .bottom .content .special{
+    padding: 15px 4px 4px 4px ;
+    opacity: 0.8;
+}
+.center .top .content{
+    margin: 0 auto;
+    width: 960px;
+}
+.center .top{
+    height: 50px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+.center .top .content div{
+    border: 1px solid grey;
+    background-color: #8080802e;
+    display: inline-block;
+    border-bottom: none;
+    border-radius: 16px 16px 0 0;
+    height: 35px;
+    width: 75px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    margin-right: -6px
+}
+.center .top .content .special{
+    background-color: white;
+    position: relative;
+}
+.center .top .content .special::after{
+    content: "";
+    position: absolute;
+    width: 75px;
+    height: 5px;
+    background: red;
+    bottom: -2px;
+    left: 0;
+    background: #fff;
+}
+.center .contener{
+    width: 960px;
+    margin: 0 auto ;
+}
+.center .contener .up{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+}
+.center .contener .up div{
+    width: auto;
+   
+    border: 1px solid #8080802e;
+    padding: 80px 100px;
+    margin: 10px 0;
+}
+.center .contener  .middle{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+}
+.center .contener  .middle div{
+    width: auto;
+    border: 1px solid #8080802e;
+    padding: 65px 80px;
+}
+.center .contener .bottom div{
+    padding: 65px 115px;
+}
+.footer{
+    width: auto;
+    height: 120px;
+    background-color: #808080;
+    text-align: center;
+}
+.footer span{
+    vertical-align: -20px;
+}
